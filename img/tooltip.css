@@ -1,0 +1,17 @@
+div.tooltip
+{
+	position:absolute;
+	border:1px solid #000;
+	background:#fff;
+}
+
+div.tooltip div.loading
+{
+	text-align:center;
+	padding:122px 0px 0px;
+}
+
+div.tooltip p img
+{
+	padding-bottom:10px;
+}
