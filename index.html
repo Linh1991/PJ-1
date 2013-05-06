@@ -11,7 +11,60 @@
 <body>
 
 <div class="container">
-  <header></header>
+  <header>
+  	<div id="search">
+    	<input id="inputsearch" value="Search!" name="search" />
+    </div>
+  	<div id="headimg"> 	
+    	<img src="img/talen2.gif">
+    </div>
+    <input align="center" id="go" type="button" value="Go"/>
+    <div id="filter">
+    	<select id="inputfilter" name="filterplatform">
+			<option value="" selected="">Platform</option>
+            <option value="DS">DS</option>
+            <option value="GBA">GBA</option>
+            <option value="GC">GC</option>
+            <option value="Mac">Mac</option>
+            <option value="PC">PC</option>
+            <option value="PS2">PS2</option>
+            <option value="PS3">PS3</option>
+            <option value="PSP">PSP</option>
+            <option value="Wii">Wii</option>
+            <option value="Xbox">Xbox</option>
+            <option value="Xbox 360">Xbox 360</option>
+       	</select>
+    </div>
+    <div id="pagenumbers">
+    	<font color="#EEECDD" style="background-color:#6E6C61;">
+        	<b>1</b>
+        </font>
+        <a href="/index.php?start=16&amp;filterplatform=">
+        &nbsp;2
+        </a>
+        <a href="/index.php?start=32&amp;filterplatform=">
+        &nbsp;3
+        </a>
+        <a href="/index.php?start=48&amp;filterplatform=">
+        &nbsp;4
+        </a>
+        <a href="/index.php?start=64&amp;filterplatform=">
+        &nbsp;5
+        </a>
+        <a href="/index.php?start=80&amp;filterplatform=">
+        &nbsp;6
+        </a>
+        <a href="/index.php?start=96&amp;filterplatform=">
+        &nbsp;7
+        </a>...
+        <a href="/index.php?start=1200&amp;filterplatform=">
+        &nbsp;76
+        </a>
+        <a href="/index.php?start=1216&amp;filterplatform=">
+        &nbsp;77 Last
+        </a>
+    </div>
+  </header>
   <div class="sidebar1">
     <ul class="nav">
       <li><a href="#">&nbsp;&nbsp;Home</a></li>
@@ -27,10 +80,13 @@
       <li>&nbsp;&nbsp;<input id="inputemaillogin" class="memberlogin" type="text" value="E-mail"/></li>
       <li>&nbsp;&nbsp;<input id="inputpasswordlogin" class="memberlogin" type="text" value="********"/></li>
     </ul>
+    <div id="login">Login
+    </div>
+    <div id="register">Register
+    </div>
+    <div id="forgotpass">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forgot password?</div>
     <aside>
       <p>&nbsp;</p>
-      <br>
-      <br>
       <div id="aboutus" align="left">About Us</div>
       <div id="aboutustext" align="left">We create the desktop backgrounds ourselves using high resolution artworks from the games.</div> 
       <table>
@@ -65,7 +121,7 @@
       <br>
       Hosting
       	<div style="font-size: 11px;font-weight: normal;">Our host 
-		<a href=		"http://orders.jtlnet.com/ads.php?c=0x0&amp;b=gamewallpapers">JTLnet
+		<a style="color: #978d4f; font-weight:bold;" href=		"http://orders.jtlnet.com/ads.php?c=0x0&amp;b=gamewallpapers">JTLnet
         </a>offers
         <br>fast and reliable hosting.
 		</div>
@@ -87,8 +143,19 @@
   		
   <div id="sidebar2">
   		<div id="promotepicture">
-        	 <img src="img/10.jpg"/>
-             
+        	 <img src="img/10.jpg"/>      
+    	</div>
+        <br>
+        <div id="wotd">
+        <div id="wallpaperoftheday">
+        	<span class="righttext">Today's wallpaper</span>
+        	<a href="http://www.gamewallpapers.com/wallpaperoftheday/wallpaperoftheday.jpg"><img src="img/wallpaperoftheday.jpg" border="1">
+            </a>
+            <br>
+            <a style="font-family: Arial;
+font-weight: bold;color: #978d4f; font-size:13px; text-align:center" href="http://www.gamewallpapers.com/wotd.php">Download script
+            </a>
+        </div>
         </div>
   </div>
   <footer>
