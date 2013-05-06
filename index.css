@@ -96,9 +96,33 @@ header {
 }
 #promotepicture
 {
-	top:39px;
-	left:40px;
-	position:relative;	
+	top: 72px;
+	left: 40px;
+	position: relative;
+	padding-top: 0px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 13px;
+}
+#aboutus
+{
+	position: relative;
+	left: 40px;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-top: 0px;
+	top: 8px;
+	
+}
+#aboutustext
+{
+	font-size: 11px;
+	font-weight: normal;
+	top: 10px;
+	position: relative;
+	left: 40px;
+	width: 145px;
+	padding-top: 0px;
 }
 
 /* ~~ This grouped selector gives the lists in the .content area space ~~ */
