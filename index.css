@@ -107,20 +107,20 @@ header {
 }
 #go
 {
-	position: absolute;
 	text-align: center;
 	width: 30px;
 	height: 17px;
-	top: 133px;
-	left: 730px;
+	top: -19px;
+	left: 180px;
 	font-size: 12px;
 	font-weight: bold;
+	position: absolute;
 }
 #filter {
-	left: 685px;
+	left: 131px;
 	width: 80px;
 	position: absolute;
-	top: 147px;
+	top: -1px;
 	height: 16px;
 }
 #inputfilter
@@ -139,9 +139,9 @@ header {
 {
 	font-size: 11px;
 	position: absolute;
-	top: 175px;
+	top: 22px;
 	height: 16px;
-	left: 550px;
+	left: 0px;
 	font-weight: bold;
 }
 #headimg
@@ -160,9 +160,9 @@ header {
 }
 #wallpaperoftheday
 {
-	position: relative;
+	position: absolute;
 	left: 50px;
-	top: 35px;
+	top: 42px;
 }
 #promotepicture
 {
