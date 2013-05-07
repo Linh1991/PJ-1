@@ -1,0 +1,151 @@
+body{
+	margin-top:0;
+}
+.Table_01{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.header {
+	background-image: url(img/web_012.jpg);
+	background-repeat:no-repeat;
+	height: 241px;
+}
+.leftsidebar {
+	background-image: url(img/web_02.jpg);
+	height: 1777px;
+	background-repeat: no-repeat;
+	width: 219px;
+	position: relative;
+}
+.leftborder {
+	background-image: url(img/web_03.jpg);
+	background-repeat: repeat-y;
+	width: 49px;
+}
+.article {
+	width: 480px;
+	height: 1777px;
+}
+.rightborder {
+	background-image: url(img/web_05.jpg);
+	background-repeat: repeat-y;
+	width: 30px;
+}
+.rightsidebar {
+	background-image: url(img/web_06.jpg);
+	background-repeat: no-repeat;
+	width: 228px;
+	height: 741px;
+}
+.menu{
+	left: 32px;
+	top: 50px;
+	font-size: 13px;
+	width: 150px;
+	font-weight: bold;
+	font-size: 13px;
+	list-style: nono;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+}
+#menulink{
+	text-decoration:none;
+}
+.inputemaillogin{
+	left: 25px;
+	font-size: 13px;
+	width: 150px;
+}
+.inputpasswordlogin{
+	
+	position:relative;
+	top:195px;
+	left:25px;
+	width:100px;
+}
+#submitlogin{
+	position: relative;
+	top: 50px;
+	width: 51px;
+	left: 42px;
+	height: 22px;
+}
+#register{
+	position:relative;
+	top:177px;
+	width:66px;
+	left:105px;
+	height:22px;
+}
+#aboutus{
+	font-size: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	position: relative;
+	top: 230px;
+	left: 36px;
+	font-weight:bold;
+}
+#aboutustext{
+	font-size: 13px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	position: relative;
+	top: 230px;
+	left: 42px;
+	width:120px;
+}
+#partners{
+	font-size: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	position: relative;
+	padding:2px;
+	top: 230px;
+	left: 42px;
+	width:120px;
+	font-weight:bold;
+}
+.memberlogin
+{
+		font-size: 13px;
+		width: 150px;
+		position: relative;
+		left: 41px;
+		top: 52px;
+}
+#inputlogin
+{
+	font-size: 13px;
+border: 1px solid Black;
+background: #EEECDD;
+height: 20px;
+width: 132px;
+font-weight: bold;
+padding-left: 2px;
+}
+
+.onmouse {
+background-color: #6E6C61;
+background-image: none !important;
+color: #EEECDD;
+cursor: pointer;
+}
+div.offmouse {
+background-color: Transparent;
+color: #000000;
+}
+#menulink{
+	font-size: 13px;
+height: 18;
+width: 150px;
+position: relative;
+top: 50px;
+left: 32px;
+}
+.password{
+	position:relative;
+	top:56px;
+	left:40px}
